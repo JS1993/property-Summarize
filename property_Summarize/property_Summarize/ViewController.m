@@ -16,8 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIView* view=[[UIView alloc]initWithFrame:CGRectMake(0, 0, 320, 568)];
+    UIScrollView* scrollView=[[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 320, 300)];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
